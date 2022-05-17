@@ -15,4 +15,3 @@ Consulta e validação de cep
     #Log To Console                 ${row_table} 
     Should Contain                 ${row_table}      Rua Monsenhor S. Pires Ferreira 
     #Table Row Should Contain       id: resultado-DNEC       1       Rua Monsenhor S. Pires Ferreira
-    
