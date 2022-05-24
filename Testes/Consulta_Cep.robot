@@ -5,7 +5,6 @@ Test Setup          Nova sessao
 Test Teardown       Encerra sessao
 
 ##################################################
-#
 #author Felipe Gomes
 #Dara 23/05/2022
 #Versão 1.0
