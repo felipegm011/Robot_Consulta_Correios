@@ -4,6 +4,13 @@ Resource        ../Resources/Commons.robot
 Test Setup          Nova sessao
 Test Teardown       Encerra sessao
 
+##################################################
+#
+#author Felipe Gomes
+#Dara 23/05/2022
+#Versão 1.0
+##################################################
+
 *** Test Cases ***
 Consulta e validação de cep
     Go To                          ${url}
