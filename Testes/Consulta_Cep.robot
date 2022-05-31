@@ -1,19 +1,17 @@
 *** Settings ***
 Resource        ../Resources/Commons.robot
 
-Test Setup          Nova sessao
-Test Teardown       Encerra sessao
-
 ##################################################
 #author Felipe Gomes
 #Dara 23/05/2022
 #Versão 1.0
 ##################################################
 
-*** Test Cases ***
+*** Keywords ***
 Consulta e validação de cep
+    [Arguments]                    ${cep}
     Go To                          ${url}
-    Input Text                     id: endereco     58303360
+    Input Text                     id: endereco     ${cep}
     Sleep                          3
     Click Element                  id: btn_pesquisar
     Sleep                          3
