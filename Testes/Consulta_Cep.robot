@@ -13,7 +13,7 @@ Consulta e validação de cep
     Go To                          ${url}
     Input Text                     id: endereco     ${cep}
     Sleep                          3
-    Click Element                  id: btn_pesquisa
+    Click Element                  id: btn_pesquisar
     Sleep                          3
     ${row_table}                   Get Text       id: resultado-DNEC
     #Log To Console                 ${row_table} 
