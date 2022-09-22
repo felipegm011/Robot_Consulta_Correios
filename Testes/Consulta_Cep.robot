@@ -9,7 +9,8 @@ Resource        ../Resources/Commons.robot
 
 *** Keywords ***
 Consulta e validação de cep
-    [Arguments]                    ${cep}
+    # recebendo parametro da keywork
+    [Arguments]                    ${cep} 
     Go To                          ${url}
     Input Text                     id: endereco     ${cep}
     Sleep                          3
