@@ -1,6 +1,7 @@
 *** Settings ***
 Resource        ../Resources/Commons.robot
-
+Resource        ../Resources/data.py
+Library           DateTime
 ##################################################
 #author Felipe Gomes
 #Dara 23/05/2022
@@ -11,6 +12,7 @@ Resource        ../Resources/Commons.robot
 Consulta e validação de cep
     # recebendo parametro da keywork
     [Arguments]                    ${cep} 
+    ${date} =                      Get Current Date
     Go To                          ${url}
     Input Text                     id: endereco     ${cep}
     Sleep                          3
