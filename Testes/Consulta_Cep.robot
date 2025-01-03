@@ -1,6 +1,5 @@
 *** Settings ***
 Resource        ../Resources/Commons.robot
-Resource        ../Resources/data.py
 Library           DateTime
 ##################################################
 #author Felipe Gomes
