@@ -11,4 +11,4 @@ Test Teardown       Encerra sessao
 #    Consulta e validação de cep         58303360
 
 RF002 - Consulta viacep
-    Example of a GET Request    58303035
+    Example of a GET Request    58058850
