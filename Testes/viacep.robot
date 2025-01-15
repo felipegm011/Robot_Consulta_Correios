@@ -19,6 +19,6 @@ Example of a GET Request
     log To Console                Status code: ${response.status_code}
     Log To Console                Retorno JSON:
     Log To Console                ${response.text}
-    Should Contain                ${response.text}    Rua Ascendino M. da Silva
+    Should Contain                ${response.text}    Rua Joana de Barros Moreira Machado
     #Log To Console               List of Values: ${json_data}
     #Should Be Equal As Numbers   ${response.status_code}    200
